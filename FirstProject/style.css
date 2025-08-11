@@ -1,0 +1,40 @@
+
+    .Car{
+        background-color: rgb(252, 252, 253);
+        display: flex;
+        justify-content: space-evenly;
+        }
+    .Bag{
+        transition: all 0.5hymncvbnis ease-in-out;
+        width: 250px;
+        height: 300px;;
+        color: rgb(65, 64, 63);
+        border: 3px black solid;
+        border-radius: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+      height: 200px;
+      width: 200px;
+      border-radius :50px;
+    }
+    header{
+        font-size :70px;
+        background-color: rgb(115, 115, 115);
+        text-align: center;
+        color: white;
+    }
+    footer{
+        font-size :50px;
+        background-color: rgb(115, 115, 115);
+        text-align: center;
+        color: white;
+    }
+    .Bag:hover{
+        transform: scale(0.8) rotate(5deg);
+        background-color: blue;
+        color: aliceblue;
+        
+    }
